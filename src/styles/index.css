@@ -1,12 +1,30 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+body {
+    background-color: white;
+}
+.reloj {
+    transform: translateX(30%) translateY(-10%);
+}
+.digit {
+    transform: translateX(510%) translateY(10%) rotateZ(90deg);
+    width: 70px;
+    height: 680px;
+    color: white;
+    background-color: black;
+    padding: 0;
+    text-align: center;
+    font-size: 5em;
+}
+.digit > div {
+    transform: rotate(-90deg) translateX(42%);
+    margin-top:0;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+p {
+    transform: translateX(-1%) translateY(497%);
+    color: white;
+    background-color: black;
+    font-size: 60px;
+    width: 744px;
+    height: 95px;
+}
